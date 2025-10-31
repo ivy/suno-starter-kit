@@ -8,12 +8,12 @@ This is a music project repository focused on AI-generated music using Suno AI. 
 
 ## Repository Structure
 
-- `doc/` - Documentation directory containing guides and references
+- `reference/` - Documentation directory containing guides and references
   - `suno-guide.md` - Comprehensive guide for creating effective Suno AI music prompts, including tips for style descriptions, vocal effects, genre transitions, and prompt optimization
 
 ## Key Documentation
 
-The main resource in this repository is the Suno AI guide (`doc/suno-guide.md`) which provides detailed instructions for:
+The main resource in this repository is @reference/suno-guide.md which provides detailed instructions for:
 - Optimizing sound descriptions and style prompts
 - Using structured section tags in lyrics
 - Leveraging punctuation and formatting for vocal effects
@@ -55,14 +55,15 @@ Write the final lyrics using proper Suno formatting:
 - Include instrumental sections: `[Instrumental Break]`
 - Add vocal effects and transitions between sections
 
-### 5. Sound Description (SOUND.md)
-Capture the final production direction without naming specific artists:
-- Style summary: concise description of vibe/genre blend and energy (e.g., “classy hard‑bounce hip‑hop with sleek, assertive edge”).
-- Tempo/groove: BPM range and rhythmic feel (swing/straight, bounce, double‑time bridge).
-- Instrumentation: drums/bass palette, keys/guitar/synth roles, ear‑candy/SFX (keep tasteful and low).
-- Vocal approach: delivery tone, doubles/ad‑libs, harmony usage, effects (dry verses, light plate on hooks, call‑and‑response).
-- Mix/arrangement notes: punch/width, sidechain, parallel comp, section dynamics (drops, clap break, lift in final hook).
-- Compact version: one‑sentence summary for Suno’s style field.
-- Tag line: comma‑separated tags capturing the above (no artist references).
+### 5. Sound Description (sound-description.txt)
+Create a concise, focused sound description optimized for Suno AI. IMPORTANT: Must be plain text (no Markdown formatting) and under 1000 characters total. Follow the "less is more" principle from @reference/suno-guide.md.
 
-This workflow ensures each song has a solid conceptual foundation, clear structure, properly formatted lyrics, and a producer‑ready sound description optimized for Suno AI generation.
+Structure (plain text paragraphs):
+- Opening line: Genre/style and brief scenario reference (e.g., "Lo-fi bedroom pop, intimate and hopeful. Think: late-night coding sessions becoming grassroots movement.")
+- Tempo/instrumentation: BPM, key instruments, vocal approach - keep brief
+- Production notes: Overall vibe, dynamics, space (1-2 sentences max)
+- TAGS section: Comma-separated tags with optional weights like "layered vocals:1.2" to emphasize elements
+
+Remember: Concise and clear beats detailed and long. The AI responds better to focused descriptions than exhaustive production notes. Reference @reference/suno-guide.md for examples of effective prompts.
+
+This workflow ensures each song has a solid conceptual foundation, clear structure, properly formatted lyrics, and a concise sound description optimized for Suno AI generation.
