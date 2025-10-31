@@ -30,14 +30,14 @@ When creating new songs, follow this structured approach:
 ### 1. Create Song Directory
 Start with a descriptive title that summarizes the concept (e.g., `glitchcore-lovesong/`, `cyberpunk-ballad/`, `synthwave-heartbreak/`). Create a new directory with this name.
 
-### 2. High-Level Concept (CONCEPT.md)
+### 2. High-Level Concept (concept.md)
 Write the overarching concept, theme, and emotional core of the song. Include:
 - Central theme or story
 - Target emotions and mood
 - Musical inspiration or reference points
 - Key imagery or metaphors
 
-### 3. Song Structure (STRUCTURE.md)
+### 3. Song Structure (structure.md)
 Break down the lyrical and musical structure:
 - Section order (intro, verse, hook, chorus, bridge, outro, etc.)
 - Narrative progression and story beats
@@ -45,7 +45,7 @@ Break down the lyrical and musical structure:
 - Key moments and climaxes
 - Overall flow and pacing
 
-### 4. Lyrics (LYRICS.txt)
+### 4. Lyrics (lyrics.txt)
 Write the final lyrics using proper Suno formatting:
 - Use section annotations: `[Verse]`, `[Chorus]`, `[Bridge]`, etc.
 - Add mood/effect annotations: `[softly]`, `[building]`, `[distorted]`
